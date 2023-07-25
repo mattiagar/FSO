@@ -1,0 +1,71 @@
+body{
+    background-color: #04cf39;
+    width: 100%;
+    font-family: "Yuppy TC", sans-serif;
+}
+
+
+
+/* Logo */
+.logodiv{
+    z-index: 1;
+    width: 18%;
+    height: auto;
+    margin-top: 0;
+    margin-left: 0;
+    display: block;
+}
+.logoimg{
+    width: 100%;
+}
+
+
+@media (max-width: 768px) {
+    .logodiv{width: 60%; height: auto; margin-left: -22%}
+}
+@media (max-width: 480px) {
+    .logodiv{width: 80%; height: auto; margin-left: -27.5%}
+}
+
+/* Memoji */
+.img{
+    background-color: white;
+    text-align: center;
+    width: 100%;
+}
+
+.img h1{
+    text-align: center;
+    font-weight: bold;
+    font-size: 30px;
+    padding-top: 3%;
+}
+
+.img #g{
+    width: 23%;
+    height: auto;
+    padding: 3% 0 3% 0;
+}
+
+@media (max-width: 768px){
+    .img img{ width: 32%;}
+}
+
+
+/* Social */
+.social{
+    width: 100%;
+    color: black;
+    text-align: center;
+}
+
+.social-img{
+    width: 30px;
+    height: 30px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.social-label{
+    text-align: center;
+}
